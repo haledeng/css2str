@@ -1,0 +1,22 @@
+{
+  "name": "css2str",
+  "version": "1.0.0",
+  "description": "parse css into string",
+  "main": "index.js",
+  "bin": {
+    "c2s": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haledeng/css2str.git"
+  },
+  "author": "helondeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haledeng/css2str/issues"
+  },
+  "homepage": "https://github.com/haledeng/css2str#readme"
+}
