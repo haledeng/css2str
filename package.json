@@ -1,6 +1,6 @@
 {
-  "name": "css2str",
-  "version": "1.0.0",
+  "name": "css2string",
+  "version": "1.0.2",
   "description": "parse css into string",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/haledeng/css2str.git"
   },
-  "author": "helondeng",
+  "author": "denghailong",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/haledeng/css2str/issues"

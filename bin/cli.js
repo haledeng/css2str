@@ -20,6 +20,8 @@ function index() {
 		args = slice.call(process.argv, 3),
 		output = args.splice(args.length - 1, 1)[0];
 
+
+	output = output || input + '.js';
 	var packageJson = getJSON();
 	
 	input = input.toLowerCase();
