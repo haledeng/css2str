@@ -1,6 +1,6 @@
 {
   "name": "css2string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "parse css into string",
   "main": "index.js",
   "bin": {
