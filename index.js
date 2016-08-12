@@ -11,7 +11,7 @@ function parse(cssFileUri) {
 	}
 	cssContent = cssContent.replace(/[\n|\r]/g, " ")
                             .replace(/'/g, '\"')
-                            .replace(/\s/g, '');
+                            .replace(/\s+/g, ' ');
 	cssContent = "'" + cssContent + "'";
 	return cssContent;
 }
