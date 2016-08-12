@@ -1,0 +1,1 @@
+var css = 'html,body{margin:0;padding:0;}.menu{font-size:14px;}';
