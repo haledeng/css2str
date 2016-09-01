@@ -1,5 +1,6 @@
-var parse = require('../index');
-var content = parse.parse('./st_dropdown_search.css');
+var css2str = require('../index');
 var fs = require('fs');
 
-fs.writeFileSync('./dist.css', content, 'utf-8');
+var str = css2str.parse('./source.css');
+str = 'var css = ' + str + ';';
+fs.writeFileSync('./css2js.js', str, 'utf-8');
