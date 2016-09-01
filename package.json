@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/haledeng/css2str/issues"
   },
-  "homepage": "https://github.com/haledeng/css2str#readme"
+  "homepage": "https://github.com/haledeng/css2str#readme",
+  "dependencies": {
+    "clean-css": "^3.4.19"
+  }
 }
