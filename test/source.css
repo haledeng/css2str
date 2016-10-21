@@ -1,8 +1,13 @@
+/*
+* reset
+ */
 html, body{
     margin: 0;
     padding: 0;
 }
-
+/*
+* css comment
+ */
 .menu {
     font-size: 14px;
     border: 1px solid red;

@@ -1,5 +1,6 @@
 var fs = require('fs');
 var CleanCss = require('clean-css');
+var stripCssComments = require('strip-css-comments');
 
 function parse(cssFileUri) {
     var cssContent;
@@ -10,6 +11,9 @@ function parse(cssFileUri) {
     } else {
         cssContent = cssFileUri;
     }
+    cssContent = stripCssComments(cssContent, {
+        preserve: false
+    });
     cssContent = new CleanCss().minify(cssContent).styles;
     cssContent = cssContent.replace(/'/g, '\"');
     cssContent = "'" + cssContent + "'";
